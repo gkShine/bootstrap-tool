@@ -12,9 +12,7 @@
     <title><?php echo $title;?></title>
 
     <!-- Bootstrap core CSS -->
-<!--    <link href="./bootstrap/less/bootstrap.less" rel="stylesheet/less">-->
-    <link href="./gk-boostrap/css/bootstrap.css" rel="stylesheet">
-    <link href="./gk-boostrap/bootstrap-ext.css" rel="stylesheet">
+    <link href="./bower_components/bootstrap/less/bootstrap.less" rel="stylesheet/less">
     <!-- Documentation extras -->
     <link href="http://v3.bootcss.com/assets/css/docs.min.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="http://v3.bootcss.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,5 +27,5 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="http://v3.bootcss.com/apple-touch-icon.png">
     <link rel="icon" href="http://v3.bootcss.com/favicon.ico">
-<!--    <script src="./resource/less.js"></script>-->
+    <script src="./resource/less.js"></script>
 </head>
