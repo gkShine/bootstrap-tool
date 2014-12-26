@@ -6,7 +6,7 @@
     <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
     <!-- Docs master nav -->
-    <?php $nav = 'index'; ?>
+    <?php $nav = 'css'; ?>
     <?php include_once('nav.php'); ?>
 
 

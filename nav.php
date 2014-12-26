@@ -11,16 +11,16 @@
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li>
+                <li <?php if($nav == 'index'){echo 'class="active"';} ?>>
                     <a href="./index.php">起步</a>
                 </li>
-                <li>
+                <li <?php if($nav == 'css'){echo 'class="active"';} ?>>
                     <a href="./css.php">全局 CSS 样式</a>
                 </li>
-                <li>
+                <li <?php if($nav == 'components'){echo 'class="active"';} ?>>
                     <a href="./components.php">组件</a>
                 </li>
-                <li>
+                <li <?php if($nav == 'javascript'){echo 'class="active"';} ?>>
                     <a href="./javascript.php">JavaScript 插件</a>
                 </li>
             </ul>
