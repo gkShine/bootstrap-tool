@@ -44,332 +44,6 @@
 
 
 <form class="bs-customizer" role="form">
-  <div class="bs-docs-section" id="less-section">
-    <button class="btn btn-default toggle" type="button">全选/全部取消</button>
-    <h1 id="less" class="page-header">Less 文件</h1>
-
-    <p class="lead">选择将哪些 Less 文件编译到你自己的定制 Bootstrap 版本中。不确定每个文件的用途吗？请先通读此文档中的<a href="http://v3.bootcss.com/css/">全局 CSS 样式</a>和<a href="http://v3.bootcss.com/components/">组件</a>章节。</p>
-
-    <div class="row">
-      <div class="col-xs-6 col-sm-4">
-        <h3>通用 CSS</h3>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="print.less">
-            Print media styles
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="type.less">
-            Typography
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="code.less">
-            Code
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="grid.less">
-            Grid system
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="tables.less">
-            Tables
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="forms.less" data-dependents="navbar.less,input-groups.less">
-            Forms
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="buttons.less" data-dependents="button-groups.less">
-            Buttons
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="responsive-utilities.less">
-            Responsive utilities
-          </label>
-        </div>
-      </div><!-- .col-xs-6 .col-sm-4 -->
-
-      <div class="col-xs-6 col-sm-4">
-        <h3>组件</h3>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="glyphicons.less">
-            Glyphicons
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="button-groups.less" data-dependencies="buttons.less">
-            Button groups
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="input-groups.less" data-dependencies="forms.less">
-            Input groups
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="navs.less" data-dependents="navbar.less">
-            Navs
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="navbar.less" data-dependencies="forms.less,navs.less">
-            Navbar
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="breadcrumbs.less">
-            Breadcrumbs
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="pagination.less">
-            Pagination
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="pager.less">
-            Pager
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="labels.less">
-            Labels
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="badges.less">
-            Badges
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="jumbotron.less">
-            Jumbotron
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="thumbnails.less">
-            Thumbnails
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="alerts.less">
-            Alerts
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="progress-bars.less">
-            Progress bars
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="media.less">
-            Media items
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="list-group.less">
-            List groups
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="panels.less">
-            Panels
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="responsive-embed.less">
-            Responsive embed
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="wells.less">
-            Wells
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="close.less">
-            Close icon
-          </label>
-        </div>
-      </div><!-- .col-xs-6 .col-sm-4 -->
-
-      <div class="col-xs-6 col-sm-4">
-        <h3>JavaScript 插件</h3>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="component-animations.less">
-            Component animations (for JS)
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="dropdowns.less">
-            Dropdowns
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="tooltip.less">
-            Tooltips
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="popovers.less">
-            Popovers
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="modals.less">
-            Modals
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="carousel.less">
-            Carousel
-          </label>
-        </div>
-      </div><!-- .col-xs-6 .col-sm-4 -->
-    </div><!-- /.row -->
-  </div>
-
-
-
-  <div class="bs-docs-section" id="plugin-section">
-    <button class="btn btn-default toggle" type="button">全选/全部取消</button>
-    <h1 id="plugins" class="page-header">jQuery 插件</h1>
-
-    <p class="lead">选择将那些 jQuery 插件包含到你的定制版本中。不确定他们的用途吗？请通读此文档中的 <a href="http://v3.bootcss.com/javascript/">JavaScript 插件</a>章节。</p>
-    <div class="row">
-      <div class="col-lg-6">
-        <h4>Linked to components</h4>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="alert.js">
-            Alert dismissal
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="button.js">
-            Advanced buttons
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="carousel.js">
-            Carousel functionality
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="dropdown.js">
-            Dropdowns
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="modal.js">
-            Modals
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="tooltip.js">
-            Tooltips
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="popover.js" data-dependencies="tooltip.js">
-            Popovers <small>(requires Tooltips)</small>
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="tab.js">
-            Togglable tabs
-          </label>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <h4>Magic</h4>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="affix.js">
-            Affix
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="collapse.js">
-            Collapse
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="scrollspy.js">
-            Scrollspy
-          </label>
-        </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="" value="transition.js">
-            Transitions <small>(required for any kind of animation)</small>
-          </label>
-        </div>
-      </div>
-    </div>
-
-    <div class="bs-callout bs-callout-info">
-      <h4>生成的两个文件</h4>
-      <p>所有选中的插件都将会编译为一份是和阅读的版本 <code>bootstrap.js</code> 和一份压缩版本 <code>bootstrap.min.js</code>。我们建议将压缩版本用于生产环境。</p>
-    </div>
-
-    <div class="bs-callout bs-callout-danger">
-      <h4>依赖 jQuery</h4>
-      <p>所有插件都依赖最新版本的 <a href="http://jquery.com/" target="_blank">jQuery</a>，因此，必须首先将 jQuery 引入页面。</p>
-    </div>
-  </div>
-
-
-
   <div class="bs-docs-section" id="less-variables-section">
     <button class="btn btn-default toggle" type="button">重置为默认值</button>
     <h1 id="less-variables" class="page-header">Less 变量</h1>
@@ -2239,7 +1913,327 @@
 <!-- NOTE: DO NOT EDIT THE PRECEDING SECTION DIRECTLY! It is autogenerated via the `build-customizer-html` Grunt task using the customizer-variables.jade template.-->
   </div>
 
+  <div class="bs-docs-section" id="less-section">
+    <button class="btn btn-default toggle" type="button">全选/全部取消</button>
+    <h1 id="less" class="page-header">Less 文件</h1>
 
+    <p class="lead">选择将哪些 Less 文件编译到你自己的定制 Bootstrap 版本中。不确定每个文件的用途吗？请先通读此文档中的<a href="http://v3.bootcss.com/css/">全局 CSS 样式</a>和<a href="http://v3.bootcss.com/components/">组件</a>章节。</p>
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-4">
+        <h3>通用 CSS</h3>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="print.less">
+            Print media styles
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="type.less">
+            Typography
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="code.less">
+            Code
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="grid.less">
+            Grid system
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="tables.less">
+            Tables
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="forms.less" data-dependents="navbar.less,input-groups.less">
+            Forms
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="buttons.less" data-dependents="button-groups.less">
+            Buttons
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="responsive-utilities.less">
+            Responsive utilities
+          </label>
+        </div>
+      </div><!-- .col-xs-6 .col-sm-4 -->
+
+      <div class="col-xs-6 col-sm-4">
+        <h3>组件</h3>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="glyphicons.less">
+            Glyphicons
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="button-groups.less" data-dependencies="buttons.less">
+            Button groups
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="input-groups.less" data-dependencies="forms.less">
+            Input groups
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="navs.less" data-dependents="navbar.less">
+            Navs
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="navbar.less" data-dependencies="forms.less,navs.less">
+            Navbar
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="breadcrumbs.less">
+            Breadcrumbs
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="pagination.less">
+            Pagination
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="pager.less">
+            Pager
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="labels.less">
+            Labels
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="badges.less">
+            Badges
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="jumbotron.less">
+            Jumbotron
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="thumbnails.less">
+            Thumbnails
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="alerts.less">
+            Alerts
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="progress-bars.less">
+            Progress bars
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="media.less">
+            Media items
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="list-group.less">
+            List groups
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="panels.less">
+            Panels
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="responsive-embed.less">
+            Responsive embed
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="wells.less">
+            Wells
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="close.less">
+            Close icon
+          </label>
+        </div>
+      </div><!-- .col-xs-6 .col-sm-4 -->
+
+      <div class="col-xs-6 col-sm-4">
+        <h3>JavaScript 插件</h3>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="component-animations.less">
+            Component animations (for JS)
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="dropdowns.less">
+            Dropdowns
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="tooltip.less">
+            Tooltips
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="popovers.less">
+            Popovers
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="modals.less">
+            Modals
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="carousel.less">
+            Carousel
+          </label>
+        </div>
+      </div><!-- .col-xs-6 .col-sm-4 -->
+    </div><!-- /.row -->
+  </div>
+
+  <div class="bs-docs-section" id="plugin-section">
+    <button class="btn btn-default toggle" type="button">全选/全部取消</button>
+    <h1 id="plugins" class="page-header">jQuery 插件</h1>
+
+    <p class="lead">选择将那些 jQuery 插件包含到你的定制版本中。不确定他们的用途吗？请通读此文档中的 <a href="http://v3.bootcss.com/javascript/">JavaScript 插件</a>章节。</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <h4>Linked to components</h4>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="alert.js">
+            Alert dismissal
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="button.js">
+            Advanced buttons
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="carousel.js">
+            Carousel functionality
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="dropdown.js">
+            Dropdowns
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="modal.js">
+            Modals
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="tooltip.js">
+            Tooltips
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="popover.js" data-dependencies="tooltip.js">
+            Popovers <small>(requires Tooltips)</small>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="tab.js">
+            Togglable tabs
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h4>Magic</h4>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="affix.js">
+            Affix
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="collapse.js">
+            Collapse
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="scrollspy.js">
+            Scrollspy
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" checked="" value="transition.js">
+            Transitions <small>(required for any kind of animation)</small>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="bs-callout bs-callout-info">
+      <h4>生成的两个文件</h4>
+      <p>所有选中的插件都将会编译为一份是和阅读的版本 <code>bootstrap.js</code> 和一份压缩版本 <code>bootstrap.min.js</code>。我们建议将压缩版本用于生产环境。</p>
+    </div>
+
+    <div class="bs-callout bs-callout-danger">
+      <h4>依赖 jQuery</h4>
+      <p>所有插件都依赖最新版本的 <a href="http://jquery.com/" target="_blank">jQuery</a>，因此，必须首先将 jQuery 引入页面。</p>
+    </div>
+  </div>
 
   <div class="bs-docs-section">
     <h1 id="download" class="page-header">提交</h1>
@@ -2316,23 +2310,40 @@
 ================================================== -->
 
     <?php include_once('footer.php'); ?>
-  <script type="text/javascript" >
-    $(function(){
-      $.getJSON('/config/<?php echo $_GET['res'];?>config.json', function(data){
-         $('#less-section :checked').each(function(){
-           $.inArray($(this).val(), data.css) == -1 && (this.checked = false);
-         });
-        $('#plugin-section :checked').each(function(){
-          $.inArray($(this).val(), data.js) == -1 && (this.checked = false);
+    <script type="text/javascript">
+      $(function () {
+        $.getJSON('/config/<?php echo $res;?>config.json', function (data) {
+          $('#less-section :checkbox').each(function () {
+            $.inArray($(this).val(), data.css) == -1 && (this.checked = false);
+          });
+          $('#plugin-section :checkbox').each(function () {
+            $.inArray($(this).val(), data.js) == -1 && (this.checked = false);
+          });
+          var vars = data.vars;
+          $('#less-variables-section input').each(function () {
+            $(this).val(vars[$(this).data('var')]);
+          });
         });
-        var vars = data.vars;
-        $('#less-variables-section input').each(function(){
-          $(this).val(vars[$(this).data('var')]);
-        });
-      });
-      $('#btn-save').on('click', function(e){
-        return false;
+        $('#btn-save').on('click', function (e) {
+          var params = {
+            css: [],
+            js: [],
+            vars: {}
+          };
+          $('#less-section :checkbox:checked').each(function () {
+            params.css.push($(this).val());
+          });
+          $('#plugin-section :checked:checked').each(function () {
+            params.js.push($(this).val());
+          });
+          $('#less-variables-section input').each(function () {
+            params.vars[$(this).data('var')] = $(this).val();
+          });
+          $.post('/generate.php', {config: params, res: '<?php echo $ress; ?>'}, function () {
+            alert('success');
+          });
+          return false;
+        })
       })
-    })
-  </script>
+    </script>
 </body></html>

@@ -1,3 +1,11 @@
+<?php $ress = isset($_GET['res']) ? $_GET['res'] : ''; ?>
+<?php
+if ($ress && !file_exists('./vars/' . $ress . 'variables.less')) {
+    $res = '';
+} else {
+    $res = $ress;
+}
+?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
@@ -13,6 +21,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="./bower_components/bootstrap/less/bootstrap.less" rel="stylesheet/less">
+    <?php if($res):?>
+    <link href="./vars/<?php echo $res;?>variables.less" rel="stylesheet/less">
+    <?php endif;?>
     <!-- Documentation extras -->
     <link href="http://v3.bootcss.com/assets/css/docs.min.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="http://v3.bootcss.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
