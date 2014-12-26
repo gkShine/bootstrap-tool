@@ -30,5 +30,6 @@
 <script src="./bower_components/jquery/dist/jquery.min.js"></script>
 <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="./resource/docs.min.js"></script>
+<script src="./resource/customize.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="./resource/ie10-viewport-bug-workaround.js"></script>

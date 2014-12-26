@@ -23,6 +23,9 @@
                 <li <?php if($nav == 'javascript'){echo 'class="active"';} ?>>
                     <a href="./javascript.php">JavaScript 插件</a>
                 </li>
+                <li <?php if($nav == 'customize'){echo 'class="active"';} ?>>
+                    <a href="./customize.php">定制</a>
+                </li>
             </ul>
         </nav>
     </div>
