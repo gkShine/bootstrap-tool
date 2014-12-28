@@ -20,10 +20,7 @@ if ($ress && !file_exists('./vars/' . $ress . 'variables.less')) {
     <title><?php echo $title;?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./bower_components/bootstrap/less/bootstrap.less" rel="stylesheet/less">
-    <?php if($res):?>
     <link href="./vars/<?php echo $res;?>variables.less" rel="stylesheet/less">
-    <?php endif;?>
     <!-- Documentation extras -->
     <link href="http://v3.bootcss.com/assets/css/docs.min.css" rel="stylesheet">
     <!--[if lt IE 9]><script src="http://v3.bootcss.com/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,4 +36,5 @@ if ($ress && !file_exists('./vars/' . $ress . 'variables.less')) {
     <link rel="apple-touch-icon" href="http://v3.bootcss.com/apple-touch-icon.png">
     <link rel="icon" href="http://v3.bootcss.com/favicon.ico">
     <script src="./resource/less.js"></script>
+    <script type="text/javascript">less = { env: 'development' };</script>
 </head>

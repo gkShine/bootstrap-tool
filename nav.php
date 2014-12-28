@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="./index.php" class="navbar-brand">Bootstrap</a>
+            <a href="./index.php<?php echo $query;?>" class="navbar-brand">Bootstrap</a>
         </div>
         <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
             <ul class="nav navbar-nav">

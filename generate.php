@@ -16,8 +16,24 @@ if (isset($_POST['config']) && $_POST['config']) {
     }
     fwrite($fcp, json_encode($config));
     fclose($fcp);
-    foreach($config['vars'] as $k => $var){
-        fwrite($fp, $k . ':' . $var . ';' . "\r\n");
+    $config['vars'] = array_merge(
+        $config['vars'], [
+        '@zindex-navbar' => 1000,
+        '@zindex-dropdown' => 1000,
+        '@zindex-popover' => 1060,
+        '@zindex-tooltip' => 1070,
+        '@zindex-navbar-fixed' => 1030,
+        '@zindex-modal' => 1040,
+        '@path' => '"../bower_components/bootstrap/less"'
+    ]
+    );
+    foreach ($config['vars'] as $k => $var) {
+        fwrite($fp, $k . ': ' . $var . ';' . "\r\n");
+    }
+    $csses = $config['css'];
+    $csses = array_merge(["mixins.less", "normalize.less", "print.less", "scaffolding.less", "utilities.less"], $csses);
+    foreach ($csses as $css) {
+        fwrite($fp, '@import "@{path}/' . $css . '";' . "\r\n");
     }
     fclose($fp);
 }

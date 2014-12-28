@@ -17,12 +17,11 @@
         <p class="lead">Bootstrap 是最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。</p>
 
         <p class="lead">
-            <a href="http://v3.bootcss.com/getting-started#download" class="btn btn-outline-inverse btn-lg"
-               onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Jumbotron actions&#39;, &#39;Download&#39;, &#39;Download 3.3.0&#39;);">下载
-                Bootstrap</a>
+            <a target="_blank" href="./config/<?php echo $res;?>config.json" class="btn btn-outline-inverse btn-lg">下载
+                Config文件</a>
         </p>
 
-        <p class="version">当前版本： v3.3.0 | 文档更新于：2014-10-31</p>
+        <p class="version">当前版本： v0.0.2 | 更新于：2014-12-26</p>
 
     </div>
 </main>
